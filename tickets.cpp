@@ -15,9 +15,15 @@ public:
 
     void operator()(int i)
     {
-        std::cout << "Людина " << i << " купує квиток" << std::endl;
-        std::this_thread::sleep_for(std::chrono::milliseconds(20));
-        tickets.acquire();
+        if(tickets.try_acquire())
+        {
+            std::cout << "Людина " << i << " купує квиток" << std::endl;
+            std::this_thread::sleep_for(std::chrono::milliseconds(20));
+        }
+        else
+        {
+            std::cout << "Людина " << i << " не змогла купити квиток" << std::endl;
+        }
     }
 };
 
@@ -52,7 +58,7 @@ public:
     {
         std::list<std::thread> peoples;
         int i = 0;
-        while(i < quantity_tickets)
+        while(i < quantity_tickets + 2)
         {
             if(is_open())
             {
@@ -65,7 +71,7 @@ public:
             std::this_thread::sleep_for(std::chrono::seconds(3));
         }
 
-        std::cout << "Квитки закінчились" << std::endl;
+        std::cout << "Каса закрилася" << std::endl;
 
         for(auto& p : peoples)
         {
