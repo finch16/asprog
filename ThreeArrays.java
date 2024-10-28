@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.*;
 
-public class Main {
+public class ThreeArrays {
 
     private static final int ARRAY_SIZE = 15;
     private static final String FILE1 = "array1.txt";
