@@ -18,12 +18,15 @@
 5. Перевіряеться чи закічені обрахунки, якщо всі Callable об'єкти заверщили роботу то повертаються результати та об'єднуються в один масив.
 6. Виводиться резктат тп час роботи програми.
 
-## MSFD.java
+## MSFD.java та MSDFE.java 
 
-`MSFD.java`
+`MSFD.java та MSDFE.java` — Завдання третього практичного завдання на мові Java:
+
+`MSFD.java` 
 Пошук елемента рівного сумі індексів за допомогую Fork/Join Framework
-
-## MSDFE.java
 
 `MSDFE.java`
 Пошук елемента рівного сумі індексів за допомогую Thread Pool Executor
+
+## CompletableFutureExample.java
+`CompletableFutureExample.java` — Завдання четвертого практичного заняття на мові Java:
