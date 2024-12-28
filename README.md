@@ -51,5 +51,5 @@ AsyncComputation.java:
 2. Перемножуе різницу пари чисел
 3. Вивід масиву чисел та результата.
 
-## CompletableFutureExample2.java
-`CompletableFutureExample2.java` — Завдання п'ятого практичного завдання на мові Java:
+## CompletableFutureExample2.java та WeatherComparison.java
+`CompletableFutureExample2.java та WeatherComparison.java` — Завдання п'ятого практичного завдання на мові Java:
