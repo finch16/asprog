@@ -39,6 +39,7 @@
 
 ## AsyncArrayProcessing.java та AsyncComputation.java
 `AsyncArrayProcessing.java та AsyncComputation.java` — Завдання четвертого практичного завдання на мові Java:
+
 AsyncArrayProcessing.java:
 1. Генерация масиму з 10 чисел від 1 до 10.
 2. Додваання до кожного числа 10.
