@@ -50,3 +50,6 @@ AsyncComputation.java:
 1. Генерация масиму з 10 чисел від 1 до 10.
 2. Перемножуе різницу пари чисел
 3. Вивід масиву чисел та результата.
+
+## CompletableFutureExample2.java
+`CompletableFutureExample2.java` — Завдання п'ятого практичного завдання на мові Java:
