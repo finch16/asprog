@@ -53,3 +53,6 @@ AsyncComputation.java:
 
 ## CompletableFutureExample2.java та WeatherComparison.java
 `CompletableFutureExample2.java та WeatherComparison.java` — Завдання п'ятого практичного завдання на мові Java:
+
+## ScheduledTaskDemo.java
+`ScheduledTaskDemo.java` — Завдання шьостого практичного завдання на мові Java:
